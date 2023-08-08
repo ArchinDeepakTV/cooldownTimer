@@ -29,7 +29,7 @@ html {
     html{
         background-color: red;
     }
-    .message{font-size: xx-small;}
+    .message, .jan{font-size: xx-small;}
     .counts{
         margin: 1rem;
         padding: 2rem;
@@ -45,7 +45,7 @@ html {
     html{
         background-color: indigo;
     }
-    .message{font-size: xx-large;}
+    .message, .jan{font-size: xx-large;}
     .counts{
         margin: 2rem;
         padding: 3rem;
