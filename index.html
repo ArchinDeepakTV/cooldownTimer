@@ -3,7 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>launching soon...</title>
+    <title>2024...</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script src="logic.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div
+      class="flex-container"
+      style="
+        flex-direction: column;
+        width: 100%;
+        height: 97vh;
+        /* background-color: aquamarine; */
+      "
+    >
+      <h1 style="font-family: 'Kalam', cursive; color: whitesmoke">
+        the next year is not that far
+      </h1>
+
+      <div class="flex-container" style="flex-direction: row">
+        <div class="counts" id="days"></div>
+        <div class="counts" id="hours"></div>
+        <div class="counts" id="minutes"></div>
+        <div class="counts" id="seconds"></div>
+      </div>
+    </div>
+    <h1 style="display: none" id="expired">EXPIRED</h1>
+  </body>
 </html>

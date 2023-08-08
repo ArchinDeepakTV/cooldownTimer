@@ -1,0 +1,25 @@
+html {
+    background-color: black;
+}
+
+.message {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-container{
+    display: flex;
+    /* background-color: bisque; */
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+}
+.counts{
+    color: white;
+    border: 3px solid aquamarine;
+    font-family: 'Kalam', cursive;
+    font-size: xx-large;
+    padding: 2rem;
+    margin: 2rem;
+}
