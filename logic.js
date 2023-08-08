@@ -1,5 +1,6 @@
-var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
-var x = setInterval(function () {
+var y = 2024;
+var countDownDate = new Date("Jan 1, " + y.toString() + " 00:00:00").getTime();
+var x = setInterval(function A() {
   // Get today's date and time
   var now = new Date().getTime();
 
