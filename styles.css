@@ -25,6 +25,9 @@ html {
 }
 
 @media(max-width:600px){
+    html{
+        background-color: palegreen;
+    }
     .message{font-size: smaller;}
     .counts{
         margin: 1rem;
