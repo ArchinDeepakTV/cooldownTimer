@@ -20,6 +20,7 @@ html {
     border: 3px solid aquamarine;
     font-family: 'Kalam', cursive;
     font-size: xx-large;
+    text-align: center;
     padding: 2rem;
     margin: 2rem;
 }
@@ -35,16 +36,19 @@ html {
         font-size: medium;
         border: 3px inset slateblue;
     }
+    #seconds {
+        margin-right: 0%;
+    }
 }
 
 @media screen and (orientation:landscape){
     html{
         background-color: indigo;
     }
-    .message{font-size: x-large;}
+    .message{font-size: xx-large;}
     .counts{
         margin: 2rem;
-        padding: 2rem;
+        padding: 3rem;
         font-size: x-large;
         border: 3px inset slateblue;
     }
