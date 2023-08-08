@@ -22,11 +22,10 @@ var x = setInterval(function A() {
   if (distance < 0) {
     clearInterval(x);
 
-    document.getElementById("days").innerHTML = 0;
-    document.getElementById("hours").innerHTML = 0;
-    document.getElementById("minutes").innerHTML = 0;
-    document.getElementById("seconds").innerHTML = 0;
-    let exp = document.getElementById("expired");
-    exp.style.display = "block";
+    y += 1;
+    console.log(y);
+    countDownDate = new Date("Jan 1, " + y.toString() + " 00:00:00").getTime();
+    console.log(countDownDate);
+    x = setInterval(A(), 1000);
   }
 }, 1000);
