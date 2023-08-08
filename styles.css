@@ -30,9 +30,22 @@ html {
     }
     .message{font-size: x-small;}
     .counts{
+        margin: 1rem;
+        padding: 2rem;
+        font-size: medium;
+        border: 3px inset slateblue;
+    }
+}
+
+@media screen and (orientation:landscape){
+    html{
+        background-color: indigo;
+    }
+    .message{font-size: x-large;}
+    .counts{
         margin: 2rem;
-        padding: 1rem;
-        font-size: small;
-        border: 2px inset slateblue;
+        padding: 2rem;
+        font-size: x-large;
+        border: 3px inset slateblue;
     }
 }
