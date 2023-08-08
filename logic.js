@@ -12,9 +12,11 @@ var x = setInterval(function A() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  if (days > 334)
+  if (days > 334) {
     // january
     document.getElementById("message").innerHTML = "welcome to a new year";
+    document.getElementById("jan").style.display = "block";
+  }
   if (days > 305 && days < 334)
     //february
     document.getElementById("message").innerHTML =
@@ -42,7 +44,7 @@ var x = setInterval(function A() {
     y += 1;
     console.log(y);
     countDownDate = new Date("Jan 1, " + y.toString() + " 00:00:00").getTime();
-    console.log(countDownDate);
+    console.log("here we go again");
     x = setInterval(A(), 1000);
   }
 }, 1000);
