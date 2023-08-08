@@ -23,3 +23,13 @@ html {
     padding: 2rem;
     margin: 2rem;
 }
+
+@media(max-width:600px){
+    .message{font-size: smaller;}
+    .counts{
+        margin: 1rem;
+        padding: .5rem;
+        font-size: x-small;
+        border: 2px inset slateblue;
+    }
+}
