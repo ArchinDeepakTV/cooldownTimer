@@ -28,11 +28,11 @@ html {
     html{
         background-color: palevioletred;
     }
-    .message{font-size: smaller;}
+    .message{font-size: x-small;}
     .counts{
-        margin: 1rem;
-        padding: .5rem;
-        font-size: x-small;
+        margin: 2rem;
+        padding: 1rem;
+        font-size: small;
         border: 2px inset slateblue;
     }
 }
