@@ -32,7 +32,7 @@ html {
     .message, .jan{font-size: xx-small;}
     .counts{
         margin: 1rem;
-        padding: 2rem;
+        padding: 1rem;
         font-size: medium;
         border: 3px inset slateblue;
     }
@@ -48,7 +48,7 @@ html {
     .message, .jan{font-size: xx-large;}
     .counts{
         margin: 2rem;
-        padding: 3rem;
+        padding: 2rem;
         font-size: x-large;
         border: 3px inset slateblue;
     }
