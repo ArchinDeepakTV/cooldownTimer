@@ -24,7 +24,7 @@ html {
     margin: 2rem;
 }
 
-@media(max-width:500px){
+@media screen and (max-width: 500px) {
     html{
         background-color: red;
     }
