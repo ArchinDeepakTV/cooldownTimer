@@ -27,7 +27,7 @@ html {
 
 @media screen and (max-width: 500px) {
     html{
-        background-color: red;
+        background-color: yellow;
     }
     .message, .jan{font-size: xx-small;}
     .counts{
